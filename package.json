@@ -1,0 +1,31 @@
+{
+  "name": "guido-cli",
+  "version": "1.0.0",
+  "description": "CLI for Guido",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuzucheFE/guido-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zuzucheFE/guido-cli/issues"
+  },
+  "files": [
+    "bin",
+    "command.js"
+  ],
+  "bin": {
+    "guido-cli": "./index.js",
+    "guido": "./index.js"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "commander": "2.20.0",
+    "cross-spawn": "6.0.5",
+    "guido": "4.6.1"
+  },
+  "devDependencies": {
+    "nyc": "^14.1.1"
+  }
+}
